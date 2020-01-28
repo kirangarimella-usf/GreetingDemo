@@ -6,7 +6,17 @@ namespace GreetingDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey there!");
+            string greeting = "Hello World!";
+
+            if (greeting == "Hello World!")
+            {
+                Console.WriteLine("It's great to be born!");
+            }
+            else
+            {
+                Console.WriteLine("I'm about to be born!");
+            }
+           
         }
     }
 }
