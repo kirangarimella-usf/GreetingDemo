@@ -6,7 +6,7 @@ namespace GreetingDemo
     {
         static void Main(string[] args)
         {
-            string greeting = "Are you ok?";
+            string greeting = "Howdy!";
             string nextGreeting = "";
 
             if (greeting == "Hello World!")
@@ -20,6 +20,10 @@ namespace GreetingDemo
             else if (greeting == "Are you ok?")
             {
                 nextGreeting = "Yup! All good.";
+            }
+            else
+            {
+                nextGreeting = "What did you say?";
             }
 
             Console.WriteLine(nextGreeting);
